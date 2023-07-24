@@ -1,0 +1,463 @@
+body {
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.88) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+nav a:hover {
+    color: #FAC422;
+}
+
+nav a:not(:first-child) {
+    margin-left: 60px;
+}
+
+.cart-block {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cart-count {
+    width: 21px;
+    height: 18px;
+    border-radius: 9px;
+    background: #FFF;
+    color: #141820;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.contact-us {
+    margin: 0 0 0 20px;
+    width: 178px;
+    height: 62px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+.blue-bg-color {
+    display: flex;
+    justify-content: end;
+}
+
+.blue-bg-color div {
+    top: 0;
+    z-index: -1;
+    width: 44%;
+    height: 1069px;
+    position: absolute;
+    background: #57B8FF;
+}
+
+.main-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+.information-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-information-block {
+    margin: 0 0 0 15px;
+}
+
+.main-social-block {
+    display: flex;
+    transform-origin: bottom left;
+    margin: 200px 0 0 0;
+    position: absolute;
+    transform: rotate(-90deg);
+    color: #80858F;
+    font-family: Orbitron;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.main-social-block div:not(:first-child) {
+    margin-left: 40px;
+}
+
+.main-social-block div:hover {
+    transition: .2s;
+    color: #fff;
+}
+
+.main-supratitle {
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    width: 656px;
+    font-family: Orbitron;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86px;
+    text-transform: capitalize;
+}
+
+.main-subtitle {
+    width: 615px;
+    margin-top: 45px;
+    color: #999;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.main-bttns {
+    margin: 53px 0 0 0;
+}
+
+.main-more-bttn {
+    width: 203px;
+    height: 70px;
+    flex-shrink: 0;
+    background: #57B8FF;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.main-view-bttn {
+    margin-left: 40px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.second-container {
+    margin-top: 246px;
+    display: flex;
+    justify-content: center;
+    background: #2A313C;
+}
+
+.second-info-container {
+    width: 596px;
+    margin-top: 89px;
+    margin-left: 128px;
+}
+
+.second-info-supratitle {
+    display: flex;
+    align-items: center;
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.second-info-title {
+    margin-top: 22px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74px;
+    text-transform: capitalize;
+}
+
+.second-info-desc {
+    margin-top: 38px;
+    color: rgba(223, 223, 223, 0.80);
+    font-family: Orbitron;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.second-info-imgs {
+    border: 8px solid #2A313C;
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-info-imgs img {
+    border: 8px solid #2A313C;
+    margin: 0 12px 12px 12px;
+    cursor: pointer;
+}
+
+.second-info-imgs img:hover {
+    border-radius: 20px;
+    border: 8px solid #3B3D46;
+}
+
+
+
+
+
+
+
+/* LATEST NEWS */
+.latest-news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.latest-news-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.latest-news-top-text {}
+
+.latest-news-top-supratitle {
+    margin-top: 130px;
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 100% */
+    text-transform: uppercase;
+}
+
+.latest-news-top-title {
+    width: 541px;
+    margin-top: 12px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74px;
+    /* 115.625% */
+    text-transform: capitalize;
+}
+
+.latest-news-readmore button {
+    width: 175px;
+    height: 70px;
+    flex-shrink: 0;
+    background: #57B8FF;
+}
+
+
+.latest-news-cards-container {
+    display: flex;
+    margin-top: 68px;
+}
+
+.latest-news-bigCard {
+    margin-right: 24px;
+    width: 648px;
+}
+
+.latest-news-smallCards {
+    display: flex;
+    width: 672px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.latest-news-smallCards div {
+    width: 312px;
+}
+
+.latest-news-bigCard .card-date {
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 100% */
+}
+
+.latest-news-bigCard .card-title {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    /* 127.778% */
+    text-transform: capitalize;
+}
+
+.card-date {
+    margin-top: 30px;
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.card-title {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background: #222730;
+    padding-top: 130px;
+    margin-top: 130px;
+}
+.footer-desc {
+    margin-top: 35px;
+    width: 289px;
+    color: #999;
+    font-family: Orbitron;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.menu-items-title {
+    margin-bottom: 23px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: capitalize;
+}
+
+.menu-items div:not(:first-child) {
+    margin-top: 12px;
+}
+
+.other-pages div:not(:first-child) {
+    margin-top: 12px;
+}
+
+.menu-items div:not(:first-child) {
+    color: #999;
+    font-family: Orbitron;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px;
+    /* 250% */
+    text-transform: capitalize;
+}
+
+.other-pages-title {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* 166.667% */
+    text-transform: capitalize;
+}
+
+.other-pages div:not(:first-child) {
+    color: #999;
+    font-family: Orbitron;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px;
+    /* 250% */
+    text-transform: capitalize;
+}
